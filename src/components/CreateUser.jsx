@@ -38,20 +38,20 @@ const CreateUser = ({setCreateNewuser , users, setUsers}) => {
         e.preventDefault();
         submitChanges()}}>
         <div className="section">
-        <label>Name</label>
+        <label>Nama</label>
       <input type="text" value={inputData.name} onChange={(e)=>setInputData({...inputData,name :e.target.value})}
       />
         </div>
       
       <div className="section">
-      <label>email</label>
+      <label>Email</label>
       <input type="email" value={inputData.email} onChange={(e)=>setInputData({...inputData,email:e.target.value} )}
       />
       </div>
       
 
       <div className="section">
-      <label>Address(City)</label>
+      <label>Alamat</label>
       <input type="text"  value={inputData.address.city} onChange={(e)=>setInputData({...inputData, address:{...inputData.address,city: e.target.value}})}
       /> 
       </div>

@@ -58,20 +58,20 @@ const submitChanges = async (userId) => {
         e.preventDefault();
         submitChanges(id)}}>
         <div className="section">
-        <label>Name</label>
+        <label>Nama</label>
       <input type="text" value={name} onChange={(e)=>updateUser(id , "name" , e.target.value)}
       />
         </div>
       
       <div className="section">
-      <label>email</label>
+      <label>Email</label>
       <input type="email" value={email} onChange={(e)=>updateUser(id , "email" , e.target.value)}
       />
       </div>
       
 
       <div className="section">
-      <label>Address(City)</label>
+      <label>Alamat</label>
       <input type="text" value={city} onChange={(e)=>updateUser(id , "address.city" , e.target.value)} />
       </div>
      
