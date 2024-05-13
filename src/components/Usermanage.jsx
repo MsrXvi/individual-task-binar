@@ -78,10 +78,10 @@ const Usermanage = () => {
         <table className="table">
           <thead>
             <tr>
-              <th>SNo.</th>
-              <th>Name</th>
-              <th>Adress </th>
-              <th className="hide-on-small">email</th>
+              <th>No.</th>
+              <th>Nama</th>
+              <th>Alamat </th>
+              <th className="hide-on-small">Email</th>
               <th>Edit</th>
               <th>Delete</th>
             </tr>
