@@ -191,8 +191,8 @@ form input{
   font-size: 1.1rem;
   padding: .6rem .4rem;
   margin: 4px;
-  color: white;
-  background-color: rgba(88, 110, 121, 0.744);
+  color: rgba(255, 174, 68, 0.978);
+  background-color: white;
   border: none;
   border-radius: 14px;
   cursor: pointer;
